@@ -1,0 +1,135 @@
+.Profile {
+    text-align: center;
+    font-family: monospace;
+    background-image: linear-gradient(to bottom,#1f8c8c,#011526);
+    display: flex;
+    color: white;
+    height: 90vh;
+  }
+ 
+  .left-menu{
+    border-right: #ffffff solid 2px;
+  }
+  
+  .header-footer{
+    color: #50f2f2;
+    font-size: 3vw;
+    background-color: #011526;
+  }
+  
+  .profile-img-ctnr{
+    background-color:#50f2f28c ;
+    font-weight: bold;
+    margin-top:5%;
+    margin-left:2%;
+    width: 96%;
+  
+  }
+  
+  .img-heading{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+  }
+  
+  .img-holder{
+    height: 40vh;
+    width: 40vw;
+    
+  }
+  
+  .imgDisplay{
+    margin-top:5%;
+    height: 30vh;
+    width: 15vw;
+    /* object-fit: cover; */
+    border-radius: 50%;
+  }
+  
+  #input-img[type="file"]{
+    display: none;
+  }
+  
+  .card{
+    background-color:  #50f2f28c;
+    margin-top: 5%;
+    margin-right: 2%;
+    
+  }
+  .bio-ctnr-label{
+    font-size: 2vw;
+    margin-bottom: 2%;
+    
+  }
+  .bio-ctnr-txt{
+    margin-bottom: 8%;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    
+  }
+  .name-lbl{
+    color: #50f2f2;
+    font-size: 3.6vw;
+    background-color:#011526 ;
+    border: 3px solid #ffffffc7;
+    margin-left: 2%;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    max-width: 90%;
+    
+  }
+  
+  #menu{
+    color: white;
+    background-color: #50f2f2;
+    margin-top:5%;
+    
+  }
+  .form-save-btn{
+    font-size: 1vw;
+    margin-bottom: 1%;
+    background-color:#50f2f2;
+  }
+  .menuItem{
+    color: white;
+    font-size: 1vw;
+    background-color: #011526;
+  }
+  
+  .follow{
+    font-size: 1.8vw;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .errorMsgs{
+    color: white;
+    font-size:1vw;
+  }
+  
+  .form-detail{
+    margin-left: 3%;
+    background-color: #011526;;
+    color: #50f2f2;
+    font-size: 1.5vw;
+    width: 80%;
+  }
+  
+  .form-inputs{
+    margin: 2% 0% 2% 0%;
+    background-color: black;
+    color:white;
+    text-align: center;
+  }
+  .follow-cntr{
+    text-align: center;
+    margin-left: 10%;
+  }
+  
+  
+  
+  

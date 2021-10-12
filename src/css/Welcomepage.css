@@ -1,0 +1,63 @@
+.duration{
+    color: white;
+}
+.striped{
+    background-color: #0d0d0d;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.songs{
+    text-align: center;
+    color: #50f2f2;
+}
+.details{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+}
+.album{
+    text-align: center;
+}
+
+.pageLabel{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 39px;
+    padding-left: 26px;
+    color:azure;
+}
+
+.MusicApp{
+    background-color: #145259;
+    height:auto;
+    /* overflow: auto; */
+    width:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.icon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.dropdown{
+    overflow: visible !important;
+}
+
+.footer{
+    position:relative;
+    bottom:0;
+    display:block;  
+    width:100%;
+    margin-top: auto;
+    
+}

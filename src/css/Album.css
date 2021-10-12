@@ -1,0 +1,46 @@
+.duration{
+    color: white;
+}
+.striped{
+    background-color: #0d0d0d;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.albumsongs{
+    text-align: center;
+    color: #50f2f2;
+    padding-bottom: 10%;
+}
+.details{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+}
+.albumdetails{
+    text-align: center;
+}
+.artistalbum{
+    text-align: center;
+}
+
+.MusicApp{
+    background-color: #145259;
+    height:80VW;
+}
+.albumimage{
+    width: 25%;
+    height: 25%;
+}
+.play{
+    background-color: transparent;
+    outline: none;
+}
+RangeStepInput{
+    color: #50f2f2;
+}
+.Albumpage{
+    height:60VW;
+    padding-bottom: 10%;
+}

@@ -1,0 +1,111 @@
+.whole{
+  height:49VW;
+  background-image: linear-gradient(to bottom,#145259,#011526);
+  overflow: auto;
+}
+
+.searchWidth{
+    width:310px;
+}
+
+.searchPosition{
+    margin-left: 317px;
+}
+
+.profiledisplay{
+    margin-left: 87px;
+}
+
+.logo{
+    font-family: cursive;
+    font-size: xxx-large;
+}
+
+.navPadding{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.elementNavPostion{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.crross-image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+.text {
+      background-color: #04AA6D;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }    
+
+.myPlaylistLabel{
+        font-family: cursive;
+        font-weight: 600;
+        font-size: 39px;
+        padding-left: 26px;
+        color:azure;
+    }
+
+.backgroundImage{
+        padding-bottom: 123px;
+    }
+
+.modalClass{
+    padding-right: 61px;
+    padding-top: 7px;
+    }
+
+.songDiv{
+        display:flex;
+        color:beige;
+        font-family: none;
+        padding-top: 20px;
+        border-radius: 35px;
+    }
+
+.newPlaylistButton{
+      padding: 21px 128px 0px 0px;
+      position: relative;
+      float: right;
+    }
+
+.displayError{
+      color: chocolate;
+      font-size: xxx-large;
+      padding: 217px;
+      text-align: center;
+      font-style: italic;
+    }
+
+.displayErrorNoSong{
+      color: chocolate;
+      font-size: xxx-large;
+      padding: 105px 453px;
+      font-style: italic;
+      text-align: center;
+    }
+
+.displayloader{
+      width: 50px;
+      position: relative;
+      left: 48%;
+    }
+
+.playlist-image {
+      /* background-image: url(process.env.PUBLIC_URL+"Playlistthumbnail.jpeg"); */
+      background-position: center;
+      border-radius: 24px;
+     }
+
+.playlist-name{
+      font-weight: 600;
+     }

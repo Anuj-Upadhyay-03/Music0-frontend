@@ -1,0 +1,42 @@
+/* Author: Utkarsh Patel
+ Created on: 17th July,2021 */
+body{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #145259, #011526 ); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+.card {
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+  
+}
+.card-text {
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;  
+height: 6vw;
+
+}
+.wrapper {
+  display: inline-block;
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

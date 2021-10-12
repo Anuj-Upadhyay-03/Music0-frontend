@@ -1,0 +1,74 @@
+.Playlistform{
+    max-width: 775px !important;
+    margin: 0 auto !important;
+    padding-top: 12px !important;
+}
+
+.import-button{
+    float: right;
+    padding: 3px 10px !important;
+}
+
+.playlist-heading{
+font-size: x-large;
+    font-family: auto;
+    padding-bottom: 0px;
+    font-weight: 700;
+}
+
+.card{
+    background-color: #50f2f28c !important;
+    margin-top: auto !important;
+    margin-right: auto !important;
+}
+.card-style{
+    border-radius: 12px !important;
+    margin-top: 5%;
+    margin-right: 2%;
+    
+}
+
+.card-body{
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0.70rem !important;
+        text-align: initial;
+        padding-left: 32px !important;
+}
+
+.friendplaylist-label{
+    font-size: xxx-large;
+    padding-top: 15px;
+    padding-left: 41px;
+    font-family: cursive;
+    color: azure;
+}
+
+
+.cardheader-style{
+    background-color: #001515;
+}
+
+.cardcollapse-style{
+    background-color: turquoise;
+}
+
+.btncolor-style{
+    color: cyan;
+    float:'left';
+}
+
+.nosongs{
+    padding: 14px 199px;
+}
+
+.txtunderline{
+    text-decoration: underline;
+}
+
+.displayerrormsg{
+    color: chocolate;
+    font-size: xxx-large;
+    padding: 89px 17px 0px;
+    text-align: center;
+}

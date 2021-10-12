@@ -1,0 +1,93 @@
+.form-container {
+    background-color: #50f2f248; 
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    border-radius: 10%;
+    margin: 5% 10% 5% 10% ;
+    backdrop-filter: blur(10px);
+  }
+  .register-header{
+    align-items: top;
+    text-align: center;
+    padding-top: 0vw;
+    font-size: 4vw;
+    
+  }
+  .profile-row{
+    border-bottom: solid 1px white;
+    align-items: baseline;
+  }
+  .form{
+    margin: 5px 10px 5px 10px;
+    min-width: 20%;
+    max-width: 80%;
+  }
+  .form-control{
+    margin: 10px 2px 5px 10px;
+    min-width: 20%;
+      max-width: 80%;
+      color:#50F2F2;
+      background: #011526;
+      
+  }
+  .upload-btn{
+    min-width: 20%;
+      max-width: 60%;
+      margin: 10px 2px 5px 10px;
+      align-items: right;
+      justify-content: center;
+  }
+  .errorMsg{
+    color:  white;
+    text-align: center;
+    margin-left: 4%;
+  }
+  .profile-img-ctnrs{
+    margin-bottom: 1%;
+    margin-left:45%;
+      
+  }
+  .profile-img{
+    max-width: 150px;
+    max-height: 150px;
+    display: flex;
+    border-radius: 50%;
+    margin-bottom: 1%;
+    align-items: center;
+  }
+  
+
+  .img-holder{
+    height:auto;
+    width: auto;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  
+  .img{
+    height: 7VW;
+    width: 7VW;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  
+  #input-img[type="file"]{
+    display: none;
+  }
+
+  #form-reg-btn{
+      width: 30%;
+      text-align: center;
+      margin: auto;  
+      background: #50f2f2;
+      color: black;
+  }
+  button:disabled,button[disabled]{
+    background-color: #011526;
+    color: white;
+    cursor:not-allowed !important;
+  }
